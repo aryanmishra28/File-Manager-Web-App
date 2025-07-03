@@ -33,7 +33,7 @@ app.get('/file/:filename', function(req, res)
 // This line defines a GET route in your Express app that listens to URLs like:
 // http://localhost:3000/file/anyfilename.txt
 {
- fs.readFile(`./files/${req.params.filename}`, 'utf8', function(err, filedata) {
+ fs.readFile(`./files/$ {req.params.filename}`, 'utf8', function(err, filedata) {
    res.render('show', {filename: req.params.filename, filedata:filedata}); // Render the show.ejs file to the frontend with file data
    //filedata is the content of the file, which is passed to EJS to display
 });
