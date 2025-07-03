@@ -1,6 +1,6 @@
 const express = require("express");
 const app=express();
-const path = require("path"); //: Helps in handling file paths across OS.
+const path = require("path"); // Helps in handling file paths across OS.
 const fs= require("fs"); //Node’s built-in File System module for file operations.
 
 
