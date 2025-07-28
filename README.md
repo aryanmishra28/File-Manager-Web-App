@@ -1,6 +1,38 @@
-# 📁 BE-REV - File Manager Web App
+# 📁 File Manager Web App
 
-A simple, responsive web app built with **Node.js**, **Express**, and **EJS** that allows users to **create**, **read**, **rename**, **edit**, and **delete** `.txt` files stored on the local file system. Styled beautifully using **TailwindCSS**.
+A simple and elegant web-based file manager built with **Node.js**, **Express**, **EJS**, and **Tailwind CSS**. This app lets you **create**, **view**, **edit**, **rename**, and **delete** text files directly from the browser interface.
+
+---
+
+![Node.js](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js)
+![Express](https://img.shields.io/badge/Framework-Express-black?logo=express)
+![EJS](https://img.shields.io/badge/View-EJS-yellow?logo=ejs)
+![Tailwind CSS](https://img.shields.io/badge/Style-TailwindCSS-blue?logo=tailwindcss)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+---
+
+## 🔧 Features
+
+- 📝 **Create** new `.txt` files
+- 📂 **View** file contents
+- ✍️ **Edit** file content and rename files
+- 🗑️ **Delete** files
+- 📁 Files are stored and managed from a local `files/` directory
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page – List & Manage Files
+
+![Home Page](https://github.com/aryanmishra28/File-Manager-Web-App/blob/main/images/Screenshot%20(160).png)
+
+
+
+### ✏️ Edit Filename and File Content
+![Edit File](https://github.com/aryanmishra28/File-Manager-Web-App/blob/main/images/Screenshot%20(161).png)
+
 
 ---
 
